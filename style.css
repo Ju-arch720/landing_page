@@ -103,3 +103,33 @@ nav a {
     height: 100%;
     object-fit: cover;
 }
+
+/*Some Random Information*/
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.boxy-gr{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.boxy{
+    display: flex;
+    width: 8px;
+    height: auto;
+    border: solid 21px #3882f6;
+    border-radius: 8px;
+}
