@@ -103,8 +103,11 @@ nav a {
 /* Image */
 
 .img {
-    width: 500px;
-    height: 250px;
+    width: 100%;       
+    max-width: 500px;   
+    min-width: 150px;    
+    height: 250px;       
+    flex-shrink: 1;      
 }
 
 .img img {
